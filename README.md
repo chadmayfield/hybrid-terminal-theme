@@ -26,7 +26,7 @@ There a few different ways to install an Apple Terminal profile.  The two easies
 1. In Finder, locate the .terminal file and double-click it.  This will automatically import the settings into the Terminal.app.
 2. Open Terminal and choose Preferences.  In the Preferences windows, click the down arrow on the gear icon in the lower left corner of the windows and click Import.  Navigate to and select the terminal file, then click import.
 
-## ANSI Values (HEX)
+## Hex Values
 The values for the hybrid.terminal theme are modified from [w0ng's .Xresources-hybrid](https://gist.github.com/w0ng/3278077)
 
  bg/fg     | black  |  red   |  green  | yellow  |  blue   | magenta |  cyan   | white  
@@ -36,7 +36,7 @@ background | color0 | color1 | color2  | color3  | color4  | color5  | color6  |
 foreground | color8 | color9 | color10 | color11 | color12 | color13 | color14 | color15
 C5C8C6     | 373B41 | CC6666 | B5BD68  | F0C674  | 81A2BE  | B294BB  | 8ABEB7  | C5C8C6
 
-The values for the hybrid-reduced-contrast.terminal are modified from [W0ng's .Xresources-hybrid-reduced-contrast](https://gist.github.com/w0ng/16e33902508b4a0350ae)
+The values for the hybrid-reduced-contrast.terminal are modified from [w0ng's .Xresources-hybrid-reduced-contrast](https://gist.github.com/w0ng/16e33902508b4a0350ae)
 
  bg/fg     | black  |  red   |  green  | yellow  |  blue   | magenta |  cyan   | white  
 ---------- | ------ | ------ | ------- | ------- | ------- | ------- | ------- | ------
@@ -45,4 +45,7 @@ background | color0 | color1 | color2  | color3  | color4  | color5  | color6  |
 foreground | color8 | color9 | color10 | color11 | color12 | color13 | color14 | color15
 C5C8C6     | 425059 | CC6666 | B5BD68  | F0C674  | 81A2BE  | B294BB  | 8ABEB7  | C5C8C6
 
-*NOTE:* Color [differences](https://i.imgur.com/haBkExL.png) for reduced contrast are; background, color0, color7, & color8.  
+*NOTE:* Color [differences](https://i.imgur.com/haBkExL.png) for reduced contrast are; background, color0, color7, & color8. 
+
+#### Follow-up
+Shortly after I made these themes for my terminal, I found the [mac-os-x-terminal-themes](https://github.com/lysyi3m/osx-terminal-themes) repo with [Hybrid.termial](https://raw.githubusercontent.com/lysyi3m/osx-terminal-themes/master/schemes/Hybrid.terminal) glaring at me. Oh well! I've kept this repo for myself and tweaks I make to the them. 
